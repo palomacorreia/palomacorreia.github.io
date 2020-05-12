@@ -52,6 +52,7 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+  
 }
 
 .social-icons a {
@@ -101,11 +102,13 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    style="background-image: url('img_girl.jpg');"
   }
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+    
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
