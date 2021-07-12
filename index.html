@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="palomaDev content="">
 
   <title>palomaDev</title>
 
@@ -23,9 +23,15 @@
 
 </head>
 
-<body id="page-top"  >
+<body id="page-top" style="background-image: url('img/background.jpg');
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;">
 
-  <nav  id="sideNav" style="background-image:  url('../img/background.png');">
+  <nav  id="sideNav" >
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Paloma Correia</span>
       <span class="d-none d-lg-block">
@@ -52,9 +58,9 @@
         <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interesses</a>
         </li> -->
-        <li class="nav-item">
+      <!--   <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -87,9 +93,53 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
+        <div class="wrapper">
+            
+                    <div class="box">
+                        <div class="description">
+                            <h2>
+                              <img src="/img/cap.ico" height="40">
+                              <img src="/img/next.ico" height="40">
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sunt rem magni quasi tempore alias nostrum mollitia delectus cupiditate hic unde minima quis officiis, quidem quae quisquam, aperiam porro fugiat?</p>
+                       
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="description">
+                            <h2> <img src="/img/space.ico" height="40" ></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sunt rem magni quasi tempore alias nostrum mollitia delectus cupiditate hic unde minima quis officiis, quidem quae quisquam, aperiam porro fugiat?</p>
+                        
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="description">
+                            <h2> <img src="/img/juceb.ico" height="40">
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sunt rem magni quasi tempore alias nostrum mollitia delectus cupiditate hic unde minima quis officiis, quidem quae quisquam, aperiam porro fugiat?</p>
+                      
+                        </div>
+                    </div>
+                    <div class="box">
+                      <div class="description">
+                          <h2>
+                            <img src="/img/uneb.ico" height="40"></h2>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sunt rem magni quasi tempore alias nostrum mollitia delectus cupiditate hic unde minima quis officiis, quidem quae quisquam, aperiam porro fugiat?</p>
 
-       
+                      </div>
+                  </div>
+                </div>
 
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script> 
+        <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+                speed: 400,
+                easing:"cubic-bezier(.03,.98,.52,.99)",
+                perspective:500,
+                transition:true
+            });
+        </script>
       </div>
 
     </section>
@@ -164,22 +214,6 @@
             <i class="fab fa-npm"></i>
           </li>
         </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
       </div>
     </section>
 
@@ -195,9 +229,9 @@
  -->
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+ <!--    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5"><!-- Awards &amp; --> Certifications</h2>
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
@@ -212,7 +246,7 @@
          
         </ul>
       </div>
-    </section>
+    </section> -->
 
   </div>
 
