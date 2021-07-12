@@ -222,8 +222,9 @@ a:hover, a:focus, a:active {
 }
 
 .wrapper p {
-  margin: 20px 10px;
+  margin: 15px 15px;
   font-family: 'Fira Code', monospace;
+  text-align: center;
 }
 
 .wrapper ul {
